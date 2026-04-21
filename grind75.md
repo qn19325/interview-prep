@@ -31,7 +31,7 @@ Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 - [x] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) — Easy · 20 mins
 - [x] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) — Easy · 15 mins
 - [x] [Majority Element](https://leetcode.com/problems/majority-element/) — Easy · 20 mins
-- [ ] [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) — Easy · 20 mins
+- [x] [Determine if Two Events Have Conflict](https://leetcode.com/problems/determine-if-two-events-have-conflict/) — Easy · 15 mins
 - [x] [Insert Interval](https://leetcode.com/problems/insert-interval/) — Medium · 25 mins ↩ redo
 - [x] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) — Medium · 30 mins ↩ redo
 - [ ] [Merge Intervals](https://leetcode.com/problems/merge-intervals/) — Medium · 30 mins
