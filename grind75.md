@@ -34,7 +34,7 @@ Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 - [x] [Determine if Two Events Have Conflict](https://leetcode.com/problems/determine-if-two-events-have-conflict/) — Easy · 15 mins
 - [x] [Insert Interval](https://leetcode.com/problems/insert-interval/) — Medium · 25 mins ↩ redo
 - [x] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) — Medium · 30 mins ↩ redo
-- [ ] [Merge Intervals](https://leetcode.com/problems/merge-intervals/) — Medium · 30 mins
+- [x] [Merge Intervals](https://leetcode.com/problems/merge-intervals/) — Medium · 30 mins ↩ redo
 - [ ] [3Sum](https://leetcode.com/problems/3sum/) — Medium · 30 mins
 - [ ] [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) — Medium · 35 mins
 - [ ] [Sort Colors](https://leetcode.com/problems/sort-colors/) — Medium · 25 mins
@@ -43,8 +43,8 @@ Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 
 ### String
 
-- [ ] [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) — Easy · 15 mins
-- [ ] [Valid Anagram](https://leetcode.com/problems/valid-anagram/) — Easy · 15 mins
+- [x] [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) — Easy · 15 mins
+- [x] [Valid Anagram](https://leetcode.com/problems/valid-anagram/) — Easy · 15 mins
 - [ ] [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) — Easy · 20 mins
 - [ ] [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) — Medium · 30 mins
 - [ ] [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) — Medium · 25 mins
