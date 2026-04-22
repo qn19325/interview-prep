@@ -11,13 +11,15 @@ last_updated: 2026-04-21
 
 ## Hours Logged
 
-**Total: 3h 45m / 60h**
+**Total: 6h 45m / 60h**
 
 | Date | Duration | Problems |
 |------|----------|----------|
 | 2026-04-20 | 1h 00m | Two Sum, Best Time to Buy and Sell Stock |
 | 2026-04-20 | 1h 15m | Insert Interval |
 | 2026-04-21 | 1h 30m | Contains Duplicate, Product of Array Except Self |
+| 2026-04-22 | 1h 30m | Valid Palindrome, Valid Anagram, Merge Intervals |
+| 2026-04-22 | 1h 30m | Longest Palindrome, Longest Palindromic Substring |
 
 Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 
@@ -45,10 +47,10 @@ Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 
 - [x] [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) — Easy · 15 mins
 - [x] [Valid Anagram](https://leetcode.com/problems/valid-anagram/) — Easy · 15 mins
-- [ ] [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) — Easy · 20 mins
+- [x] [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) — Easy · 20 mins
 - [ ] [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) — Medium · 30 mins
 - [ ] [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) — Medium · 25 mins
-- [ ] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) — Medium · 25 mins
+- [x] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) — Medium · 25 mins
 
 ---
 
