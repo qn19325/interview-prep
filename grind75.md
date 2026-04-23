@@ -59,7 +59,7 @@ Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 
 ### String (cont.)
 
-- [ ] [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) — Medium · 30 mins
+- [x] [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) — Medium · 30 mins
 - [ ] [Group Anagrams](https://leetcode.com/problems/group-anagrams/) — Medium · 25 mins
 
 ### Matrix
