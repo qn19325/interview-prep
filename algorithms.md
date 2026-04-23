@@ -42,14 +42,17 @@ Start at 60 minutes, build toward 90 as pattern fluency increases and sessions s
 
 ## Pattern Index
 
-| Pattern | Description | Problems Solved |
-|---------|-------------|-----------------|
-| | | |
+| Pattern | Description |
+|---------|-------------|
+| Hash Map | Store value→index or char→count for O(1) lookup; count frequencies to compare distributions |
+| Hash Set | Track seen elements for O(1) existence checks; spot duplicates in one pass |
+| Two Pointers | Left + right pointers moving inward; or expand outward from a centre to test symmetry |
+| Sliding Window (variable) | Grow right pointer freely, shrink left when constraint is violated; window size changes |
+| Sliding Window (fixed) | Fixed-size window slides one step at a time; add incoming, remove outgoing element |
+| Intervals | Sort by start time; merge when `next.start <= current.end`; insert by splitting into before/overlap/after |
+| Prefix Products | Build left-product and right-product arrays so each index holds the product of all other elements |
+| Greedy / One-pass | Track running state (min price seen, max profit) without storing history |
+| Binary Search — value search | Classic: find exact target in sorted array; return index or -1. `lo <= hi`, check mid, move `lo = mid+1` or `hi = mid-1` |
+| Binary Search — lowest value | Find the first index where a condition turns true (left boundary). Keep `hi = mid` when true, `lo = mid+1` when false; answer is `lo` after loop |
 
 ---
-
-## Problem Log
-
-| Date | Problem | Difficulty | Pattern | Notes |
-|------|---------|------------|---------|-------|
-| | | | | |
