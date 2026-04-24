@@ -11,7 +11,7 @@ last_updated: 2026-04-21
 
 ## Hours Logged
 
-**Total: 9h 45m / 60h**
+**Total: 11h 30m / 60h**
 
 | Date | Duration | Problems |
 |------|----------|----------|
@@ -23,6 +23,8 @@ last_updated: 2026-04-21
 | 2026-04-23 | 1h 30m | Longest Substring Without Repeating Characters |
 | 2026-04-23 | 0h 30m | Find All Anagrams in a String |
 | 2026-04-23 | 1h 00m | Binary Search, First Bad Version |
+| 2026-04-24 | 0h 45m | Binary Search ↩, First Bad Version ↩, Search in Rotated Sorted Array |
+| 2026-04-24 | 1h 00m | Time Based Key-Value Store |
 
 Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 
@@ -73,8 +75,8 @@ Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 
 - [x] [Binary Search](https://leetcode.com/problems/binary-search/) — Easy · 15 mins
 - [x] [First Bad Version](https://leetcode.com/problems/first-bad-version/) — Easy · 20 mins
-- [ ] [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) — Medium · 30 mins
-- [ ] [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) — Medium · 35 mins
+- [x] [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) — Medium · 30 mins
+- [x] [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) — Medium · 35 mins ↩ redo
 
 ### Graph
 
