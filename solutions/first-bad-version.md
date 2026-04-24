@@ -3,14 +3,14 @@ problem: First Bad Version
 difficulty: Easy
 topic: Binary Search
 source: https://leetcode.com/problems/first-bad-version/
-solved_date: 2026-04-23
+solved_date: 2026-04-24
 ---
 
 # Intuition
-Find the leftmost `true` in an implicit boolean array — all versions before the first bad one are `false`, all from it onward are `true`. Binary search on the boundary.
+Find the leftmost `true` in an implicit boolean array — all versions before the first bad one return `false`, all from it onward return `true`. Binary search on the boundary.
 
 # Approach
-Standard binary search with 1-indexed bounds (`i=1`, `j=n`). No early exit — let `i` and `j` cross. When the loop exits, `i` is sitting on the first bad version.
+Converging pattern: `left < right`. When `isBadVersion(mid)` is true, mid might be the first bad — keep it in play with `right = mid`. When false, mid is definitely good, so `left = mid + 1`. Loop exits with `left === right` on the first bad version.
 
 # Complexity
 - Time complexity: O(log n)
@@ -20,22 +20,22 @@ Standard binary search with 1-indexed bounds (`i=1`, `j=n`). No early exit — l
 ```typescript []
 var solution = function(isBadVersion: any) {
     return function(n: number): number {
-        let i=1;
-        let j=n;
+        let left = 1;
+        let right = n;
 
-        while (i <= j) {
-            const mid = Math.floor((j+i) / 2)
+        while (left < right) {
+            const mid = Math.floor((left + right) / 2);
             if (isBadVersion(mid)) {
-                j = mid - 1;
+                right = mid;
             } else {
-                i = mid + 1
+                left = mid + 1;
             }
         }
 
-        return i;
+        return left;
     };
 };
 ```
 
 # Notes
-Key distinction from value-search binary search: no early exit on match. The goal is the boundary between false/true, so you always run to completion and return `i`. Bounds are 1-indexed (`i=1`, `j=n`) — a previous attempt with `i=0, j=n-1` caused `isBadVersion(0)` to be called when version 1 was bad.
+Left-boundary variant of the converging pattern. No early return — you want the *first* match, not just any match. After the loop, `left === right` — just return `left`. Bounds are 1-indexed (`left=1`, `right=n`).
