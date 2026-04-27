@@ -11,7 +11,7 @@ last_updated: 2026-04-21
 
 ## Hours Logged
 
-**Total: 11h 30m / 60h**
+**Total: 13h 00m / 60h**
 
 | Date | Duration | Problems |
 |------|----------|----------|
@@ -25,6 +25,7 @@ last_updated: 2026-04-21
 | 2026-04-23 | 1h 00m | Binary Search, First Bad Version |
 | 2026-04-24 | 0h 45m | Binary Search ↩, First Bad Version ↩, Search in Rotated Sorted Array |
 | 2026-04-24 | 1h 00m | Time Based Key-Value Store |
+| 2026-04-27 | 1h 30m | Container With Most Water, 3Sum, Sort Colors |
 
 Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 
@@ -42,9 +43,9 @@ Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 - [x] [Insert Interval](https://leetcode.com/problems/insert-interval/) — Medium · 25 mins ↩ redo
 - [x] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) — Medium · 30 mins ↩ redo
 - [x] [Merge Intervals](https://leetcode.com/problems/merge-intervals/) — Medium · 30 mins ↩ redo
-- [ ] [3Sum](https://leetcode.com/problems/3sum/) — Medium · 30 mins
-- [ ] [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) — Medium · 35 mins
-- [ ] [Sort Colors](https://leetcode.com/problems/sort-colors/) — Medium · 25 mins
+- [x] [3Sum](https://leetcode.com/problems/3sum/) — Medium · 30 mins ↩ redo
+- [x] [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) — Medium · 35 mins
+- [x] [Sort Colors](https://leetcode.com/problems/sort-colors/) — Medium · 25 mins ↩ redo
 - [ ] [Combination Sum](https://leetcode.com/problems/combination-sum/) — Medium · 30 mins
 - [ ] [Gas Station](https://leetcode.com/problems/gas-station/) — Medium · 30 mins
 
