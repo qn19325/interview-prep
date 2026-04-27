@@ -1,7 +1,7 @@
 ---
 topic: Algorithms — Interview Prep
 type: prep
-last_updated: 2026-04-20
+last_updated: 2026-04-27
 ---
 
 # Algorithms — Interview Prep
@@ -42,17 +42,40 @@ Start at 60 minutes, build toward 90 as pattern fluency increases and sessions s
 
 ## Pattern Index
 
-| Pattern | Description |
-|---------|-------------|
-| Hash Map | Store value→index or char→count for O(1) lookup; count frequencies to compare distributions |
-| Hash Set | Track seen elements for O(1) existence checks; spot duplicates in one pass |
-| Two Pointers | Left + right pointers moving inward; or expand outward from a centre to test symmetry |
-| Sliding Window (variable) | Grow right pointer freely, shrink left when constraint is violated; window size changes |
-| Sliding Window (fixed) | Fixed-size window slides one step at a time; add incoming, remove outgoing element |
-| Intervals | Sort by start time; merge when `next.start <= current.end`; insert by splitting into before/overlap/after |
-| Prefix Products | Build left-product and right-product arrays so each index holds the product of all other elements |
-| Greedy / One-pass | Track running state (min price seen, max profit) without storing history |
-| Binary Search — value search | Classic: find exact target in sorted array; return index or -1. `lo <= hi`, check mid, move `lo = mid+1` or `hi = mid-1` |
-| Binary Search — lowest value | Find the first index where a condition turns true (left boundary). Keep `hi = mid` when true, `lo = mid+1` when false; answer is `lo` after loop |
+### Hashing
+- **Hash Map** — Store value→index or char→count for O(1) lookup; count frequencies to compare distributions.
+- **Hash Set** — Track seen elements for O(1) existence checks; spot duplicates in one pass.
+
+### Two Pointers
+- **Inward** — Left and right pointers moving toward each other; common for sorted-array searches and palindrome checks.
+- **Expand from centre** — Start at a centre and grow outward to test symmetry (e.g. expand-around-centre palindromes).
+
+### Sliding Window
+- **Variable** — Grow right pointer freely; shrink left when a constraint is violated. Window size changes.
+- **Fixed** — Window of fixed size slides one step; add incoming, remove outgoing.
+
+### Intervals
+- **Sort + sweep** — Sort by start; merge when `next.start <= current.end`. For inserts, split into before / overlap / after.
+
+### Prefix / Suffix Aggregates
+- **Prefix + suffix arrays** — Build left-aggregated and right-aggregated arrays so each index sees the aggregate of all other elements in O(n) (e.g. product-of-array-except-self).
+
+### Greedy / One-pass
+- **Running state** — Track running min/max/state without storing history (e.g. min price seen, max profit so far).
+
+### Binary Search
+
+All variants use the **convergence template**: `lo < hi` loop, exits with `lo === hi` (one candidate left). Asymmetry: `lo = mid + 1` rules mid out; `hi = mid` keeps mid in play.
+
+- **Value search** — Find exact target in sorted array. `lo = mid + 1` when `target > nums[mid]`; `hi = mid` when `target < nums[mid]`; early-return on equality. After the loop, check `nums[lo] === target`.
+- **Leftmost boundary** — First index where a predicate turns true. `hi = mid` when predicate is true at mid (mid stays); `lo = mid + 1` when false. After the loop, `lo` is the first true index — no post-check needed if at least one true exists.
+- **Rightmost ≤ target** — Reframe as "leftmost > target," then step back. `hi = mid` when `arr[mid] > target`; `lo = mid + 1` otherwise. After the loop, check `arr[lo] <= target` (answer is `lo`) else `arr[lo - 1]` (answer is `lo - 1`).
+- **Rotated sorted array** — Convergence template with sorted-half branching. Each iteration, decide which half is sorted by comparing `nums[lo]` to `nums[mid]`; if target lies within the sorted half's range, narrow into it (`hi = mid` or `lo = mid + 1`), otherwise discard it. Endpoint guards (check `nums[lo]` / `nums[hi]` against target before narrowing) let the inner inequalities stay strict.
+
+### Partitioning
+- **Dutch flag / 3-way** — One-pass partition into three regions using `low / mid / high` pointers; classifies values `<pivot`, `==pivot`, `>pivot` in O(n) time and O(1) extra space.
+
+### Graph / Grid Traversal
+- **DFS on grid** — Recursively visit 4-neighbours; track visited via a set or by mutating the grid in place. Natural fit for connected components and flood fill.
 
 ---
