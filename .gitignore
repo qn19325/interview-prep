@@ -3,7 +3,5 @@
 
 # Unignore the whitelist
 !.gitignore
-!grind75.md
-!algorithms.md
-!solutions/
-!solutions/**
+!algorithms/
+!algorithms/**
