@@ -6,7 +6,7 @@ source: https://leetcode.com/problems/majority-element/
 solved_date: 2026-04-21
 ---
 
-# Majority Element
+# Majority Element ↩ redo (Boyer-Moore Voting)
 
 ## Intuition
 
@@ -32,4 +32,4 @@ function majorityElement(nums: number[]): number {
 
 ## Notes
 
-Is HashMap + return when count is greater than 2 a better solution?
+Redo with Boyer-Moore Majority Vote — O(n) time, O(1) space. Maintain a candidate and a count; increment on match, decrement on mismatch; when count hits zero, replace candidate. See [[algorithms]] Voting / Cancellation pattern.

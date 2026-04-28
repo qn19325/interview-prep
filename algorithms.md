@@ -77,5 +77,9 @@ All variants use the **convergence template**: `lo < hi` loop, exits with `lo ==
 
 ### Graph / Grid Traversal
 - **DFS on grid** — Recursively visit 4-neighbours; track visited via a set or by mutating the grid in place. Natural fit for connected components and flood fill.
+- **Multi-source BFS** — Seed the queue with all starting nodes before the first iteration; expand level-by-level using a pre-loop size snapshot (`const size = queue.length`). Tick/step counter increments after each level. Natural fit for simultaneous spreading (e.g. rotting oranges, 0-1 matrix distances). Stop condition: `while (queue.length && targetCount > 0)` avoids an extra tick on the final iteration.
+
+### Voting / Cancellation
+- **Boyer-Moore Majority Vote** — Maintain a candidate and a count; increment on match, decrement on mismatch; count hits zero, replace candidate. After one pass, candidate is the majority element (if one exists). O(n) time, O(1) space.
 
 ---
