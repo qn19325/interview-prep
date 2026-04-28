@@ -11,7 +11,7 @@ last_updated: 2026-04-21
 
 ## Hours Logged
 
-**Total: 15h 30m / 60h**
+**Total: 17h 00m / 60h**
 
 | Date | Duration | Problems |
 |------|----------|----------|
@@ -28,6 +28,7 @@ last_updated: 2026-04-21
 | 2026-04-27 | 1h 30m | Container With Most Water, 3Sum, Sort Colors |
 | 2026-04-27 | 1h 00m | Flood Fill, Number of Islands |
 | 2026-04-28 | 1h 30m | Rotting Oranges, 01 Matrix |
+| 2026-04-28 | 1h 30m | Word Search |
 
 Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 
@@ -90,7 +91,7 @@ Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 - [x] [Number of Islands](https://leetcode.com/problems/number-of-islands/) — Medium · 25 mins
 - [x] [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) — Medium · 30 mins
 - [ ] [Accounts Merge](https://leetcode.com/problems/accounts-merge/) — Medium · 30 mins
-- [ ] [Word Search](https://leetcode.com/problems/word-search/) — Medium · 30 mins
+- [x] [Word Search](https://leetcode.com/problems/word-search/) — Medium · 30 mins
 
 ---
 
