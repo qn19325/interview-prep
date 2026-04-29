@@ -80,6 +80,11 @@ All variants use the **convergence template**: `lo < hi` loop, exits with `lo ==
 - **Backtracking (DFS + restore)** — Mark a cell in-place (e.g. `#`) before recursing to prevent reuse on the current path; restore the original value after the call returns. Use when a single path must be explored and undone, not when all cells spread simultaneously (that's multi-source BFS). Pattern: `orig = cell; cell = '#'; dfs(...); cell = orig`.
 - **Multi-source BFS** — Seed the queue with all starting nodes before the first iteration; expand level-by-level using a pre-loop size snapshot (`const size = queue.length`). Tick/step counter increments after each level. Natural fit for simultaneous spreading (e.g. rotting oranges, 0-1 matrix distances). Stop condition: `while (queue.length && targetCount > 0)` avoids an extra tick on the final iteration.
 
+### Linked List
+- **Recursive pointer rewiring** — Trust the function contract; recurse on the smaller subproblem, wire the returned result into the current node's `.next`, return the current node. The new head bubbles up unchanged from the base case (e.g. merge two sorted lists, reverse linked list).
+- **Two-pointer / Floyd's cycle detection** — Slow pointer moves 1 step, fast moves 2. If they meet, a cycle exists; if fast reaches null, no cycle. O(1) space alternative to hash set tracking.
+- **Hash Set node tracking** — Store node references (not values) as you traverse; O(1) existence check catches revisited nodes. JS/TS Sets compare objects by reference, so `set.add(node)` stores the pointer directly.
+
 ### Voting / Cancellation
 - **Boyer-Moore Majority Vote** — Maintain a candidate and a count; increment on match, decrement on mismatch; count hits zero, replace candidate. After one pass, candidate is the majority element (if one exists). O(n) time, O(1) space.
 

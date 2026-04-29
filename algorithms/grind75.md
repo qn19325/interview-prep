@@ -11,7 +11,7 @@ last_updated: 2026-04-21
 
 ## Hours Logged
 
-**Total: 17h 00m / 60h**
+**Total: 18h 30m / 60h**
 
 | Date | Duration | Problems |
 |------|----------|----------|
@@ -29,6 +29,7 @@ last_updated: 2026-04-21
 | 2026-04-27 | 1h 00m | Flood Fill, Number of Islands |
 | 2026-04-28 | 1h 30m | Rotting Oranges, 01 Matrix |
 | 2026-04-28 | 1h 30m | Word Search |
+| 2026-04-29 | 1h 30m | Merge Two Sorted Lists, Linked List Cycle, Reverse Linked List |
 
 Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 
@@ -131,9 +132,9 @@ Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 
 ### Linked List
 
-- [ ] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) — Easy · 20 mins
-- [ ] [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) — Easy · 20 mins
-- [ ] [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) — Easy · 20 mins
+- [x] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) — Easy · 20 mins
+- [x] [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) — Easy · 20 mins
+- [x] [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) — Easy · 20 mins
 
 ---
 
