@@ -11,7 +11,7 @@ last_updated: 2026-04-21
 
 ## Hours Logged
 
-**Total: 18h 30m / 60h**
+**Total: 20h 00m / 60h**
 
 | Date | Duration | Problems |
 |------|----------|----------|
@@ -30,6 +30,7 @@ last_updated: 2026-04-21
 | 2026-04-28 | 1h 30m | Rotting Oranges, 01 Matrix |
 | 2026-04-28 | 1h 30m | Word Search |
 | 2026-04-29 | 1h 30m | Merge Two Sorted Lists, Linked List Cycle, Reverse Linked List |
+| 2026-04-29 | 1h 30m | Valid Parentheses, Implement Queue using Stacks, Min Stack, Backspace String Compare |
 
 Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 
@@ -147,10 +148,10 @@ Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 
 ### Stack
 
-- [ ] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) — Easy · 20 mins
-- [ ] [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) — Easy · 20 mins
-- [ ] [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) — Easy · 15 mins
-- [ ] [Min Stack](https://leetcode.com/problems/min-stack/) — Medium · 20 mins
+- [x] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) — Easy · 20 mins
+- [x] [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) — Easy · 20 mins
+- [x] [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) — Easy · 15 mins
+- [x] [Min Stack](https://leetcode.com/problems/min-stack/) — Medium · 20 mins
 - [ ] [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) — Medium · 30 mins
 - [ ] [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) — Medium · 30 mins
 

@@ -85,6 +85,11 @@ All variants use the **convergence template**: `lo < hi` loop, exits with `lo ==
 - **Two-pointer / Floyd's cycle detection** — Slow pointer moves 1 step, fast moves 2. If they meet, a cycle exists; if fast reaches null, no cycle. O(1) space alternative to hash set tracking.
 - **Hash Set node tracking** — Store node references (not values) as you traverse; O(1) existence check catches revisited nodes. JS/TS Sets compare objects by reference, so `set.add(node)` stores the pointer directly.
 
+### Stack
+- **Bracket matching** — Push opening brackets; on closing bracket, pop and verify against expected close (via map). Return true only if stack is empty at the end. Empty-stack pop yields `undefined`, which mismatches any closer — no special-case needed.
+- **Parallel min-stack** — Maintain a second stack tracking the running minimum. Push to min-stack using `<=` (not `<`) so duplicate minimums are each recorded; pop from min-stack only when the popped value equals the current min.
+- **Monotonic stack** — Maintain a stack in strictly increasing or decreasing order; pop when an element violates the invariant. Useful for "next greater/smaller" problems and daily-temperatures style queries.
+
 ### Voting / Cancellation
 - **Boyer-Moore Majority Vote** — Maintain a candidate and a count; increment on match, decrement on mismatch; count hits zero, replace candidate. After one pass, candidate is the majority element (if one exists). O(n) time, O(1) space.
 
