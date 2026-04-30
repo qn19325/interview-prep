@@ -25,8 +25,15 @@ Sort. Return middle element
 
 ```typescript []
 function majorityElement(nums: number[]): number {
-    nums.sort();
-    return nums[Math.floor(nums.length / 2)]
+    let candidate = nums[0];
+    let count = 0;
+
+    for (let num of nums) {
+        if (count === 0) candidate = num;
+        count += num === candidate ? 1 : -1; 
+    }
+
+    return candidate;
 };
 ```
 

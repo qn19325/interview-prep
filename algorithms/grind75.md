@@ -11,7 +11,7 @@ last_updated: 2026-04-21
 
 ## Hours Logged
 
-**Total: 20h 00m / 60h**
+**Total: 23h 00m / 60h**
 
 | Date | Duration | Problems |
 |------|----------|----------|
@@ -31,6 +31,8 @@ last_updated: 2026-04-21
 | 2026-04-28 | 1h 30m | Word Search |
 | 2026-04-29 | 1h 30m | Merge Two Sorted Lists, Linked List Cycle, Reverse Linked List |
 | 2026-04-29 | 1h 30m | Valid Parentheses, Implement Queue using Stacks, Min Stack, Backspace String Compare |
+| 2026-04-30 | 1h 30m | Majority Element ↩ (warm-up), Combination Sum (incomplete), Gas Station (incomplete) |
+| 2026-04-30 | 1h 30m | Gas Station (warm-up), Combination Sum, Gas Station |
 
 Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 
@@ -43,7 +45,7 @@ Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 - [x] [Two Sum](https://leetcode.com/problems/two-sum/) — Easy · 15 mins
 - [x] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) — Easy · 20 mins
 - [x] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) — Easy · 15 mins
-- [x] [Majority Element](https://leetcode.com/problems/majority-element/) — Easy · 20 mins ↩ redo (Boyer-Moore Voting)
+- [x] [Majority Element](https://leetcode.com/problems/majority-element/) — Easy · 20 mins
 - [x] [Determine if Two Events Have Conflict](https://leetcode.com/problems/determine-if-two-events-have-conflict/) — Easy · 15 mins
 - [x] [Insert Interval](https://leetcode.com/problems/insert-interval/) — Medium · 25 mins ↩ redo
 - [x] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) — Medium · 30 mins ↩ redo
@@ -51,8 +53,8 @@ Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 - [x] [3Sum](https://leetcode.com/problems/3sum/) — Medium · 30 mins ↩ redo
 - [x] [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) — Medium · 35 mins
 - [x] [Sort Colors](https://leetcode.com/problems/sort-colors/) — Medium · 25 mins ↩ redo
-- [ ] [Combination Sum](https://leetcode.com/problems/combination-sum/) — Medium · 30 mins
-- [ ] [Gas Station](https://leetcode.com/problems/gas-station/) — Medium · 30 mins
+- [x] [Combination Sum](https://leetcode.com/problems/combination-sum/) — Medium · 30 mins
+- [x] [Gas Station](https://leetcode.com/problems/gas-station/) — Medium · 30 mins
 
 ### String
 

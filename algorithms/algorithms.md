@@ -54,10 +54,10 @@ Start at 60 minutes, build toward 90 as pattern fluency increases and sessions s
 - **Variable** — Grow right pointer freely; shrink left when a constraint is violated. Window size changes.
 - **Fixed** — Window of fixed size slides one step; add incoming, remove outgoing.
 
-### Intervals
+### Intervals ⚠
 - **Sort + sweep** — Sort by start; merge when `next.start <= current.end`. For inserts, split into before / overlap / after.
 
-### Prefix / Suffix Aggregates
+### Prefix / Suffix Aggregates ⚠
 - **Prefix + suffix arrays** — Build left-aggregated and right-aggregated arrays so each index sees the aggregate of all other elements in O(n) (e.g. product-of-array-except-self).
 
 ### Greedy / One-pass
@@ -72,7 +72,7 @@ All variants use the **convergence template**: `lo < hi` loop, exits with `lo ==
 - **Rightmost ≤ target** — Reframe as "leftmost > target," then step back. `hi = mid` when `arr[mid] > target`; `lo = mid + 1` otherwise. After the loop, check `arr[lo] <= target` (answer is `lo`) else `arr[lo - 1]` (answer is `lo - 1`).
 - **Rotated sorted array** — Convergence template with sorted-half branching. Each iteration, decide which half is sorted by comparing `nums[lo]` to `nums[mid]`; if target lies within the sorted half's range, narrow into it (`hi = mid` or `lo = mid + 1`), otherwise discard it. Endpoint guards (check `nums[lo]` / `nums[hi]` against target before narrowing) let the inner inequalities stay strict.
 
-### Partitioning
+### Partitioning ⚠
 - **Dutch flag / 3-way** — One-pass partition into three regions using `low / mid / high` pointers; classifies values `<pivot`, `==pivot`, `>pivot` in O(n) time and O(1) extra space.
 
 ### Graph / Grid Traversal
@@ -89,6 +89,19 @@ All variants use the **convergence template**: `lo < hi` loop, exits with `lo ==
 - **Bracket matching** — Push opening brackets; on closing bracket, pop and verify against expected close (via map). Return true only if stack is empty at the end. Empty-stack pop yields `undefined`, which mismatches any closer — no special-case needed.
 - **Parallel min-stack** — Maintain a second stack tracking the running minimum. Push to min-stack using `<=` (not `<`) so duplicate minimums are each recorded; pop from min-stack only when the popped value equals the current min.
 - **Monotonic stack** — Maintain a stack in strictly increasing or decreasing order; pop when an element violates the invariant. Useful for "next greater/smaller" problems and daily-temperatures style queries.
+
+### Backtracking
+
+- **Combinatorial (choose → explore → unchoose)** — Build a candidate incrementally; at each step push an element, recurse, then pop. Use a `start` index to control reuse and prevent duplicate combinations.
+  ```
+  function backtrack(start, current):
+      if base case: record current; return
+      if pruning condition: return
+      for i from start to end:
+          current.push(candidates[i])
+          backtrack(i, current)     // i = reuse allowed; i + 1 = no reuse / no duplicates
+          current.pop()
+  ```
 
 ### Voting / Cancellation
 - **Boyer-Moore Majority Vote** — Maintain a candidate and a count; increment on match, decrement on mismatch; count hits zero, replace candidate. After one pass, candidate is the majority element (if one exists). O(n) time, O(1) space.
