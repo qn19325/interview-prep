@@ -11,10 +11,28 @@ last_updated: 2026-05-01
 
 ## Hours Logged
 
-**Total: 0h 00m / 77h**
+**Total: 23h 00m / 77h**
 
 | Date | Duration | Problems |
 |------|----------|----------|
+| 2026-04-20 | 1h 00m | Two Sum, Best Time to Buy and Sell Stock |
+| 2026-04-20 | 1h 15m | Insert Interval |
+| 2026-04-21 | 1h 30m | Contains Duplicate, Product of Array Except Self |
+| 2026-04-22 | 1h 30m | Valid Palindrome, Valid Anagram, Merge Intervals |
+| 2026-04-22 | 1h 30m | Longest Palindrome, Longest Palindromic Substring |
+| 2026-04-23 | 1h 30m | Longest Substring Without Repeating Characters |
+| 2026-04-23 | 0h 30m | Find All Anagrams in a String |
+| 2026-04-23 | 1h 00m | Binary Search, First Bad Version |
+| 2026-04-24 | 0h 45m | Binary Search ↩, First Bad Version ↩, Search in Rotated Sorted Array |
+| 2026-04-24 | 1h 00m | Time Based Key-Value Store |
+| 2026-04-27 | 1h 30m | Container With Most Water, 3Sum, Sort Colors |
+| 2026-04-27 | 1h 00m | Flood Fill, Number of Islands |
+| 2026-04-28 | 1h 30m | Rotting Oranges, 01 Matrix |
+| 2026-04-28 | 1h 30m | Word Search |
+| 2026-04-29 | 1h 30m | Merge Two Sorted Lists, Linked List Cycle, Reverse Linked List |
+| 2026-04-29 | 1h 30m | Valid Parentheses, Implement Queue using Stacks, Min Stack, Backspace String Compare |
+| 2026-04-30 | 1h 30m | Majority Element ↩ (warm-up), Combination Sum, Gas Station |
+| 2026-04-30 | 1h 30m | Gas Station (warm-up), Combination Sum, Gas Station |
 
 Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 
