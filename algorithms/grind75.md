@@ -31,7 +31,7 @@ last_updated: 2026-04-21
 | 2026-04-28 | 1h 30m | Word Search |
 | 2026-04-29 | 1h 30m | Merge Two Sorted Lists, Linked List Cycle, Reverse Linked List |
 | 2026-04-29 | 1h 30m | Valid Parentheses, Implement Queue using Stacks, Min Stack, Backspace String Compare |
-| 2026-04-30 | 1h 30m | Majority Element ↩ (warm-up), Combination Sum (incomplete), Gas Station (incomplete) |
+| 2026-04-30 | 1h 30m | Majority Element ↩ (warm-up), Combination Sum, Gas Station |
 | 2026-04-30 | 1h 30m | Gas Station (warm-up), Combination Sum, Gas Station |
 
 Use alongside [[algorithms]] for session structure and pattern-logging guidance.
