@@ -11,7 +11,7 @@ last_updated: 2026-05-05
 
 ## Hours Logged
 
-**Total: 24h 30m / 60h 30m**
+**Total: 26h 00m / 60h 30m**
 
 | Date | Duration | Problems |
 |------|----------|----------|
@@ -34,6 +34,7 @@ last_updated: 2026-05-05
 | 2026-04-30 | 1h 30m | Majority Element ↩ (warm-up), Combination Sum, Gas Station |
 | 2026-04-30 | 1h 30m | Gas Station (warm-up), Combination Sum, Gas Station |
 | 2026-05-05 | 1h 30m | Maximum Depth of Binary Tree, Same Tree, Invert Binary Tree, Symmetric Tree |
+| 2026-05-05 | 1h 30m | Subtree of Another Tree, Diameter of Binary Tree, Balanced Binary Tree |
 
 Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 
@@ -118,10 +119,10 @@ Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 ## Binary Tree
 
 - [x] [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) — Easy · 15 mins
-- [ ] [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) — Easy · 15 mins
+- [x] [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) — Easy · 15 mins
 - [ ] [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) — Medium · 20 mins
 - [ ] [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) — Medium · 25 mins
-- [ ] [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) — Easy · 30 mins
+- [x] [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) — Easy · 30 mins
 - [ ] [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) — Medium · 20 mins
 - [x] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) — Easy · 15 mins
 - [ ] [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) — Medium · 25 mins
@@ -132,7 +133,7 @@ Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 - [ ] [Path Sum III](https://leetcode.com/problems/path-sum-iii/) — Medium · 35 mins
 - [x] [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) — Easy · 20 mins
 - [ ] [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) — Medium · 25 mins
-- [ ] [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) — Easy · 20 mins
+- [x] [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) — Easy · 20 mins
 
 ---
 
