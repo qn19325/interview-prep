@@ -76,8 +76,6 @@ All variants use the **convergence template**: `lo < hi` loop, exits with `lo ==
 - **Dutch flag / 3-way** — One-pass partition into three regions using `low / mid / high` pointers; classifies values `<pivot`, `==pivot`, `>pivot` in O(n) time and O(1) extra space.
 
 ### Graph / Grid Traversal
-- **DFS on grid** — Recursively visit 4-neighbours; track visited via a set or by mutating the grid in place. Natural fit for connected components and flood fill.
-- **Backtracking (DFS + restore)** — Mark a cell in-place (e.g. `#`) before recursing to prevent reuse on the current path; restore the original value after the call returns. Use when a single path must be explored and undone, not when all cells spread simultaneously (that's multi-source BFS). Pattern: `orig = cell; cell = '#'; dfs(...); cell = orig`.
 - **Multi-source BFS** — Seed the queue with all starting nodes before the first iteration; expand level-by-level using a pre-loop size snapshot (`const size = queue.length`). Tick/step counter increments after each level. Natural fit for simultaneous spreading (e.g. rotting oranges, 0-1 matrix distances). Stop condition: `while (queue.length && targetCount > 0)` avoids an extra tick on the final iteration.
 
 ### Linked List
@@ -89,19 +87,6 @@ All variants use the **convergence template**: `lo < hi` loop, exits with `lo ==
 - **Bracket matching** — Push opening brackets; on closing bracket, pop and verify against expected close (via map). Return true only if stack is empty at the end. Empty-stack pop yields `undefined`, which mismatches any closer — no special-case needed.
 - **Parallel min-stack** — Maintain a second stack tracking the running minimum. Push to min-stack using `<=` (not `<`) so duplicate minimums are each recorded; pop from min-stack only when the popped value equals the current min.
 - **Monotonic stack** — Maintain a stack in strictly increasing or decreasing order; pop when an element violates the invariant. Useful for "next greater/smaller" problems and daily-temperatures style queries.
-
-### Backtracking
-
-- **Combinatorial (choose → explore → unchoose)** — Build a candidate incrementally; at each step push an element, recurse, then pop. Use a `start` index to control reuse and prevent duplicate combinations.
-  ```
-  function backtrack(start, current):
-      if base case: record current; return
-      if pruning condition: return
-      for i from start to end:
-          current.push(candidates[i])
-          backtrack(i, current)     // i = reuse allowed; i + 1 = no reuse / no duplicates
-          current.pop()
-  ```
 
 ### Voting / Cancellation
 - **Boyer-Moore Majority Vote** — Maintain a candidate and a count; increment on match, decrement on mismatch; count hits zero, replace candidate. After one pass, candidate is the majority element (if one exists). O(n) time, O(1) space.

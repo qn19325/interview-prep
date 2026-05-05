@@ -2,16 +2,16 @@
 topic: Grind 169 — LeetCode Study Plan
 type: prep
 source: https://www.techinterviewhandbook.org/grind75/?order=topics
-last_updated: 2026-05-01
+last_updated: 2026-05-05
 ---
 
 # Grind 169
 
-169 problems · Easy: 41 · Medium: 102 · Hard: 26 · 77 hours total
+143 problems · Easy: 41 · Medium: 102 · 60h 30m total
 
 ## Hours Logged
 
-**Total: 23h 00m / 77h**
+**Total: 24h 30m / 60h 30m**
 
 | Date | Duration | Problems |
 |------|----------|----------|
@@ -33,6 +33,7 @@ last_updated: 2026-05-01
 | 2026-04-29 | 1h 30m | Valid Parentheses, Implement Queue using Stacks, Min Stack, Backspace String Compare |
 | 2026-04-30 | 1h 30m | Majority Element ↩ (warm-up), Combination Sum, Gas Station |
 | 2026-04-30 | 1h 30m | Gas Station (warm-up), Combination Sum, Gas Station |
+| 2026-05-05 | 1h 30m | Maximum Depth of Binary Tree, Same Tree, Invert Binary Tree, Symmetric Tree |
 
 Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 
@@ -57,10 +58,8 @@ Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 - [ ] [Rotate Array](https://leetcode.com/problems/rotate-array/) — Medium · 25 mins
 - [ ] [Contiguous Array](https://leetcode.com/problems/contiguous-array/) — Medium · 30 mins
 - [ ] [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) — Medium · 35 mins
-- [ ] [Employee Free Time](https://leetcode.com/problems/employee-free-time/) — Hard · 35 mins
 - [ ] [Move Zeroes](https://leetcode.com/problems/move-zeroes/) — Easy · 20 mins
 - [ ] [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) — Medium · 30 mins
-- [ ] [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) — Hard · 35 mins
 - [ ] [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) — Easy · 20 mins
 - [ ] [3Sum Closest](https://leetcode.com/problems/3sum-closest/) — Medium · 30 mins
 - [ ] [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) — Medium · 20 mins
@@ -73,15 +72,10 @@ Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 - [x] [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) — Easy · 20 mins
 - [ ] [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) — Medium · 30 mins
 - [x] [Min Stack](https://leetcode.com/problems/min-stack/) — Medium · 20 mins
-- [ ] [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) — Hard · 35 mins
-- [ ] [Basic Calculator](https://leetcode.com/problems/basic-calculator/) — Hard · 40 mins
-- [ ] [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) — Hard · 35 mins
 - [ ] [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) — Medium · 30 mins
 - [x] [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) — Easy · 15 mins
-- [ ] [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/) — Hard · 40 mins
 - [ ] [Decode String](https://leetcode.com/problems/decode-string/) — Medium · 30 mins
 - [ ] [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) — Medium · 30 mins
-- [ ] [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) — Hard · 35 mins
 - [ ] [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) — Medium · 30 mins
 
 ---
@@ -101,7 +95,6 @@ Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 - [ ] [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) — Easy · 20 mins
 - [ ] [Reorder List](https://leetcode.com/problems/reorder-list/) — Medium · 25 mins
 - [ ] [Rotate List](https://leetcode.com/problems/rotate-list/) — Medium · 25 mins
-- [ ] [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) — Hard · 35 mins
 
 ---
 
@@ -111,7 +104,6 @@ Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 - [x] [Valid Anagram](https://leetcode.com/problems/valid-anagram/) — Easy · 15 mins
 - [x] [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) — Medium · 30 mins
 - [x] [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) — Easy · 20 mins
-- [ ] [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) — Hard · 30 mins
 - [ ] [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) — Medium · 25 mins
 - [x] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) — Medium · 25 mins
 - [x] [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) — Medium · 30 mins
@@ -120,28 +112,25 @@ Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 - [ ] [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) — Easy · 20 mins
 - [ ] [Largest Number](https://leetcode.com/problems/largest-number/) — Medium · 20 mins
 - [ ] [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) — Medium · 25 mins
-- [ ] [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/) — Hard · 40 mins
 
 ---
 
 ## Binary Tree
 
-- [ ] [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) — Easy · 15 mins
+- [x] [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) — Easy · 15 mins
 - [ ] [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) — Easy · 15 mins
 - [ ] [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) — Medium · 20 mins
 - [ ] [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) — Medium · 25 mins
-- [ ] [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) — Hard · 40 mins
 - [ ] [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) — Easy · 30 mins
 - [ ] [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) — Medium · 20 mins
-- [ ] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) — Easy · 15 mins
+- [x] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) — Easy · 15 mins
 - [ ] [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) — Medium · 25 mins
-- [ ] [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) — Hard · 35 mins
 - [ ] [Path Sum II](https://leetcode.com/problems/path-sum-ii/) — Medium · 25 mins
 - [ ] [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) — Medium · 20 mins
-- [ ] [Same Tree](https://leetcode.com/problems/same-tree/) — Easy · 20 mins
+- [x] [Same Tree](https://leetcode.com/problems/same-tree/) — Easy · 20 mins
 - [ ] [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) — Medium · 25 mins
 - [ ] [Path Sum III](https://leetcode.com/problems/path-sum-iii/) — Medium · 35 mins
-- [ ] [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) — Easy · 20 mins
+- [x] [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) — Easy · 20 mins
 - [ ] [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) — Medium · 25 mins
 - [ ] [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) — Easy · 20 mins
 
@@ -153,8 +142,6 @@ Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 - [x] [First Bad Version](https://leetcode.com/problems/first-bad-version/) — Easy · 20 mins
 - [x] [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) — Medium · 30 mins
 - [x] [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) — Medium · 35 mins ↩ redo
-- [ ] [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) — Hard · 45 mins
-- [ ] [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) — Hard · 40 mins
 - [ ] [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) — Medium · 30 mins
 - [ ] [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) — Medium · 30 mins
 
@@ -169,7 +156,6 @@ Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 - [x] [Number of Islands](https://leetcode.com/problems/number-of-islands/) — Medium · 25 mins
 - [x] [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) — Medium · 30 mins
 - [ ] [Accounts Merge](https://leetcode.com/problems/accounts-merge/) — Medium · 30 mins
-- [ ] [Word Ladder](https://leetcode.com/problems/word-ladder/) — Hard · 45 mins
 - [x] [Word Search](https://leetcode.com/problems/word-search/) — Medium · 30 mins
 - [ ] [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) — Medium · 30 mins
 - [ ] [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) — Medium · 30 mins
@@ -178,10 +164,6 @@ Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 - [ ] [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) — Medium · 35 mins
 - [ ] [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) — Medium · 30 mins
 - [ ] [Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/) — Medium · 35 mins
-- [ ] [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) — Hard · 40 mins
-- [ ] [Word Search II](https://leetcode.com/problems/word-search-ii/) — Hard · 40 mins
-- [ ] [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) — Hard · 45 mins
-- [ ] [Bus Routes](https://leetcode.com/problems/bus-routes/) — Hard · 45 mins
 - [ ] [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) — Medium · 45 mins
 
 ---
@@ -216,13 +198,10 @@ Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 ## Heap
 
 - [ ] [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) — Medium · 30 mins
-- [ ] [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) — Hard · 30 mins
-- [ ] [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) — Hard · 30 mins
 - [ ] [Task Scheduler](https://leetcode.com/problems/task-scheduler/) — Medium · 35 mins
 - [ ] [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) — Medium · 30 mins
 - [ ] [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) — Medium · 30 mins
 - [ ] [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) — Medium · 30 mins
-- [ ] [Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/) — Hard · 40 mins
 
 ---
 
@@ -230,7 +209,6 @@ Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 
 - [ ] [Ransom Note](https://leetcode.com/problems/ransom-note/) — Easy · 15 mins
 - [ ] [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) — Medium · 20 mins
-- [ ] [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) — Hard · 35 mins
 
 ---
 
@@ -239,7 +217,6 @@ Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 - [ ] [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) — Medium · 35 mins
 - [ ] [Word Break](https://leetcode.com/problems/word-break/) — Medium · 30 mins
 - [ ] [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) — Medium · 35 mins
-- [ ] [Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/) — Hard · 40 mins
 
 ---
 
@@ -250,7 +227,6 @@ Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 - [ ] [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) — Medium · 30 mins
 - [ ] [Next Permutation](https://leetcode.com/problems/next-permutation/) — Medium · 30 mins
 - [ ] [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) — Medium · 25 mins
-- [ ] [N-Queens](https://leetcode.com/problems/n-queens/) — Hard · 40 mins
 
 ---
 
@@ -272,7 +248,6 @@ Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 - [ ] [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) — Medium · 35 mins
 - [ ] [Rotate Image](https://leetcode.com/problems/rotate-image/) — Medium · 25 mins
 - [ ] [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) — Medium · 25 mins
-- [ ] [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) — Hard · 40 mins
 
 ---
 
