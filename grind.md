@@ -2,7 +2,7 @@
 topic: Grind 169 — LeetCode Study Plan
 type: prep
 source: https://www.techinterviewhandbook.org/grind75/?order=topics
-last_updated: 2026-05-05
+last_updated: 2026-05-06
 ---
 
 # Grind 169
@@ -11,7 +11,7 @@ last_updated: 2026-05-05
 
 ## Hours Logged
 
-**Total: 26h 00m / 60h 30m**
+**Total: 27h 30m / 60h 30m**
 
 | Date | Duration | Problems |
 |------|----------|----------|
@@ -35,6 +35,7 @@ last_updated: 2026-05-05
 | 2026-04-30 | 1h 30m | Gas Station (warm-up), Combination Sum, Gas Station |
 | 2026-05-05 | 1h 30m | Maximum Depth of Binary Tree, Same Tree, Invert Binary Tree, Symmetric Tree |
 | 2026-05-05 | 1h 30m | Subtree of Another Tree, Diameter of Binary Tree, Balanced Binary Tree |
+| 2026-05-06 | 1h 30m | Path Sum II, Binary Tree Right Side View, Lowest Common Ancestor of a Binary Tree |
 
 Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 
@@ -121,12 +122,12 @@ Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 - [x] [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) — Easy · 15 mins
 - [x] [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) — Easy · 15 mins
 - [ ] [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) — Medium · 20 mins
-- [ ] [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) — Medium · 25 mins
+- [x] [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) — Medium · 25 mins
 - [x] [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) — Easy · 30 mins
-- [ ] [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) — Medium · 20 mins
+- [x] [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) — Medium · 20 mins
 - [x] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) — Easy · 15 mins
 - [ ] [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) — Medium · 25 mins
-- [ ] [Path Sum II](https://leetcode.com/problems/path-sum-ii/) — Medium · 25 mins
+- [x] [Path Sum II](https://leetcode.com/problems/path-sum-ii/) — Medium · 25 mins
 - [ ] [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) — Medium · 20 mins
 - [x] [Same Tree](https://leetcode.com/problems/same-tree/) — Easy · 20 mins
 - [ ] [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) — Medium · 25 mins
