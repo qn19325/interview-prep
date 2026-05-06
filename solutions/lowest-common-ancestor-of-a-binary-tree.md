@@ -9,44 +9,34 @@ solved_date: 2026-05-06
 # Lowest Common Ancestor of a Binary Tree
 
 ## Intuition
-Find the full root-to-p and root-to-q paths, then walk back from the deepest shared index.
+Return the node itself when found. If both subtrees return non-null, the current node is the LCA. Otherwise propagate the non-null side up.
 
 ## Approach
-DFS twice to collect both paths (as node arrays). Take the shorter path length, then scan from deepest to shallowest comparing node values; the first match is the LCA.
+Single-pass postorder DFS. Base case: return null or the node if it matches p or q. After recursing left and right, if both sides found a target, the current node is the LCA. If only one side did, bubble it up.
 
 ## Complexity
 - Time: O(n)
-- Space: O(h) recursion + O(h) per path array
+- Space: O(h)
 
 ## Code
 
 ```typescript
 function lowestCommonAncestor(root: TreeNode | null, p: TreeNode | null, q: TreeNode | null): TreeNode | null {
-    const res: TreeNode[][] = [];
+    function dfs(node: TreeNode | null): TreeNode | null {
+        if (!node || node === p || node === q) return node;
 
-    function dfs(node: TreeNode | null, state: TreeNode[]): void {
-        if (!node) return;
-        state.push(node);
-        if (node === p || node === q) {
-            res.push([...state]);
-        }
-        dfs(node.left, state);
-        dfs(node.right, state);
-        state.pop();
+        const left = dfs(node.left);
+        const right = dfs(node.right);
+
+        if (left && right) return node;
+
+        return left ? left : right;
     }
 
-    dfs(root, []);
-
-    const minLength = Math.min(res[0].length, res[1].length);
-    for (let i = minLength - 1; i >= 0; i--) {
-        if (res[0][i].val === res[1][i].val) {
-            return res[0][i];
-        }
-    }
-
-    return null;
+    return dfs(root);
 }
 ```
 
 ## Notes
-- Classic single-pass O(n) alternative: return the node itself when found; if both subtrees return non-null, current node is the LCA; otherwise propagate the non-null side up.
+- If both subtrees return non-null it means p and q were found in different branches — current node is the split point (LCA).
+- If only one side returns non-null, either only one target is in this subtree, or the LCA itself was one of the targets (found early via base case).
