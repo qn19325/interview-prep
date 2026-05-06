@@ -36,6 +36,7 @@ last_updated: 2026-05-06
 | 2026-05-05 | 1h 30m | Maximum Depth of Binary Tree, Same Tree, Invert Binary Tree, Symmetric Tree |
 | 2026-05-05 | 1h 30m | Subtree of Another Tree, Diameter of Binary Tree, Balanced Binary Tree |
 | 2026-05-06 | 1h 30m | Path Sum II, Binary Tree Right Side View, Lowest Common Ancestor of a Binary Tree |
+| 2026-05-06 | 1h 30m | Construct Binary Tree from Preorder and Inorder Traversal, Path Sum III |
 
 Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 
@@ -126,12 +127,12 @@ Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 - [x] [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) — Easy · 30 mins
 - [x] [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) — Medium · 20 mins
 - [x] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) — Easy · 15 mins
-- [ ] [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) — Medium · 25 mins
+- [x] [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) — Medium · 25 mins
 - [x] [Path Sum II](https://leetcode.com/problems/path-sum-ii/) — Medium · 25 mins
 - [ ] [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) — Medium · 20 mins
 - [x] [Same Tree](https://leetcode.com/problems/same-tree/) — Easy · 20 mins
 - [ ] [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) — Medium · 25 mins
-- [ ] [Path Sum III](https://leetcode.com/problems/path-sum-iii/) — Medium · 35 mins
+- [x] [Path Sum III](https://leetcode.com/problems/path-sum-iii/) — Medium · 35 mins
 - [x] [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) — Easy · 20 mins
 - [ ] [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) — Medium · 25 mins
 - [x] [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) — Easy · 20 mins
