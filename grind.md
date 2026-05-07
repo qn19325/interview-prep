@@ -11,7 +11,7 @@ last_updated: 2026-05-07
 
 ## Hours Logged
 
-**Total: 29h 00m / 60h 30m**
+**Total: 30h 30m / 60h 30m**
 
 | Date | Duration | Problems |
 |------|----------|----------|
@@ -38,6 +38,7 @@ last_updated: 2026-05-07
 | 2026-05-06 | 1h 30m | Path Sum II, Binary Tree Right Side View, Lowest Common Ancestor of a Binary Tree |
 | 2026-05-06 | 1h 30m | Construct Binary Tree from Preorder and Inorder Traversal, Path Sum III |
 | 2026-05-07 | 1h 30m | All Nodes Distance K in Binary Tree, Validate Binary Search Tree, Convert Sorted Array to Binary Search Tree |
+| 2026-05-07 | 1h 30m | Lowest Common Ancestor of a Binary Search Tree, Kth Smallest Element in a BST |
 
 Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 
@@ -191,9 +192,9 @@ Use alongside [[algorithms]] for session structure and pattern-logging guidance.
 
 ## Binary Search Tree
 
-- [ ] [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) — Easy · 20 mins
+- [x] [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) — Easy · 20 mins
 - [x] [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) — Medium · 20 mins
-- [ ] [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) — Medium · 25 mins
+- [x] [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) — Medium · 25 mins
 - [ ] [Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/) — Medium · 30 mins
 - [x] [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) — Easy · 20 mins
 
